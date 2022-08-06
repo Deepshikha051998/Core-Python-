@@ -1,0 +1,65 @@
+The items are separated by commas, each key is separated from its value by a colon (:), and the entire structure is contained in curly brackets.
+A dictionary that is completely empty of all words is written as follows {}
+Data values are kept in key-value pairs in dictionaries.
+#SYNTAX
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
+Dictionary Items: Items in the dictionary can be changed, are ordered, and cannot be duplicated.
+#SYNTAX
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict["brand"])
+Dictionary Length: To determine how many items a dictionary has, use the len() function.
+#SYNTAX
+print(len(thisdict))
+Data Types: The values in dictionary items can be of any data type like String, int, boolean, and list data type
+#SYNTAX
+thisdict = {
+  "brand": "Ford",
+  "electric": False,
+  "year": 1964,
+  "colors": ["red", "white", "blue"]
+}
+Accessing Items: u can access the items of a dictionary by referring to its key name, inside square brackets:
+#Syntax
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+x = thisdict["model"]
+OR 
+x = thisdict.get("model")
+GET keys: The keys() method will return a list of all the keys in the dictionary.
+x = thisdict.keys()
+Add a new item to the original dictionary, and see that the keys list gets updated as well:
+
+car = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 1964
+}
+
+x = car.keys()
+
+print(x) #before the change
+
+car["color"] = "white"
+
+print(x) #after the change
+Check if "model" is present in the dictionary:
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+if "model" in thisdict:
+  print("Yes, 'model' is one of the keys in the thisdict dictionary")
