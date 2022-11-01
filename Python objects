@@ -1,0 +1,5 @@
+#few things to keep in mind.
+#int= 1,2,3,4,6,324353546
+#float= 1.2,4.6,123.54
+#Python follow #PEMDAS: paranthesis exponent multiplication division addition subtraction
+2*(3-6)/6
