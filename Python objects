@@ -3,3 +3,35 @@
 #float= 1.2,4.6,123.54
 #Python follow #PEMDAS: paranthesis exponent multiplication division addition subtraction
 2*(3-6)/6
+
+#VARIABLES#
+few things to keep in mind
+#no spaces
+#no number at first
+#no built in func
+#no spec character
+
+#dynamically types: means we can use a single named variable multiple times which is good. 
+ex:  
+
+b = 3
+a = 5
+c= a + b
+c
+
+d = 'this'
+e = ' then'
+f= d + e
+
+g = str(a) + e
+
+dynamic
+b = b+ b
+ now we have type function as well
+ 
+ type(a)
+<class 'int'>
+
+type(f)
+<class 'str'>
+
